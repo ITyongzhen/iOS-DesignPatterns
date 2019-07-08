@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21BDDC4422D3464F00BDD174 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BDDC4322D3464F00BDD174 /* main.m */; };
+		21BDDC5122D3470100BDD174 /* EatMeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BDDC5022D3470100BDD174 /* EatMeat.m */; };
+		21BDDC5422D3482100BDD174 /* EatVegetables.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BDDC5322D3482100BDD174 /* EatVegetables.m */; };
+		21BDDC5822D348D000BDD174 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BDDC5722D348D000BDD174 /* Person.m */; };
+		21BDDC5B22D348E700BDD174 /* ChildPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BDDC5A22D348E700BDD174 /* ChildPerson.m */; };
+		21BDDC5E22D3491F00BDD174 /* AdultPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BDDC5D22D3491F00BDD174 /* AdultPerson.m */; };
+		21BDDC6522D34E0900BDD174 /* RunTwoHours.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BDDC6422D34E0900BDD174 /* RunTwoHours.m */; };
+		21BDDC6822D34E1B00BDD174 /* RunOneHour.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BDDC6722D34E1B00BDD174 /* RunOneHour.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		21BDDC3E22D3464F00BDD174 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		21BDDC4022D3464F00BDD174 /* iOS-策略模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "iOS-策略模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21BDDC4322D3464F00BDD174 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21BDDC4E22D346B800BDD174 /* Eat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Eat.h; sourceTree = "<group>"; };
+		21BDDC4F22D3470100BDD174 /* EatMeat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EatMeat.h; sourceTree = "<group>"; };
+		21BDDC5022D3470100BDD174 /* EatMeat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EatMeat.m; sourceTree = "<group>"; };
+		21BDDC5222D3482100BDD174 /* EatVegetables.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EatVegetables.h; sourceTree = "<group>"; };
+		21BDDC5322D3482100BDD174 /* EatVegetables.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EatVegetables.m; sourceTree = "<group>"; };
+		21BDDC5622D348D000BDD174 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		21BDDC5722D348D000BDD174 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		21BDDC5922D348E700BDD174 /* ChildPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChildPerson.h; sourceTree = "<group>"; };
+		21BDDC5A22D348E700BDD174 /* ChildPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChildPerson.m; sourceTree = "<group>"; };
+		21BDDC5C22D3491F00BDD174 /* AdultPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdultPerson.h; sourceTree = "<group>"; };
+		21BDDC5D22D3491F00BDD174 /* AdultPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdultPerson.m; sourceTree = "<group>"; };
+		21BDDC6222D34DC300BDD174 /* Run.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Run.h; sourceTree = "<group>"; };
+		21BDDC6322D34E0900BDD174 /* RunTwoHours.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunTwoHours.h; sourceTree = "<group>"; };
+		21BDDC6422D34E0900BDD174 /* RunTwoHours.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTwoHours.m; sourceTree = "<group>"; };
+		21BDDC6622D34E1B00BDD174 /* RunOneHour.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunOneHour.h; sourceTree = "<group>"; };
+		21BDDC6722D34E1B00BDD174 /* RunOneHour.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunOneHour.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21BDDC3D22D3464F00BDD174 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21BDDC3722D3464F00BDD174 = {
+			isa = PBXGroup;
+			children = (
+				21BDDC4222D3464F00BDD174 /* iOS-策略模式 */,
+				21BDDC4122D3464F00BDD174 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21BDDC4122D3464F00BDD174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21BDDC4022D3464F00BDD174 /* iOS-策略模式 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21BDDC4222D3464F00BDD174 /* iOS-策略模式 */ = {
+			isa = PBXGroup;
+			children = (
+				21BDDC6022D34D7A00BDD174 /* Run */,
+				21BDDC5522D348AD00BDD174 /* Person */,
+				21BDDC4A22D3465F00BDD174 /* Eat */,
+				21BDDC4322D3464F00BDD174 /* main.m */,
+			);
+			path = "iOS-策略模式";
+			sourceTree = "<group>";
+		};
+		21BDDC4A22D3465F00BDD174 /* Eat */ = {
+			isa = PBXGroup;
+			children = (
+				21BDDC4E22D346B800BDD174 /* Eat.h */,
+				21BDDC5222D3482100BDD174 /* EatVegetables.h */,
+				21BDDC5322D3482100BDD174 /* EatVegetables.m */,
+				21BDDC4F22D3470100BDD174 /* EatMeat.h */,
+				21BDDC5022D3470100BDD174 /* EatMeat.m */,
+			);
+			path = Eat;
+			sourceTree = "<group>";
+		};
+		21BDDC5522D348AD00BDD174 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				21BDDC5622D348D000BDD174 /* Person.h */,
+				21BDDC5722D348D000BDD174 /* Person.m */,
+				21BDDC5922D348E700BDD174 /* ChildPerson.h */,
+				21BDDC5A22D348E700BDD174 /* ChildPerson.m */,
+				21BDDC5C22D3491F00BDD174 /* AdultPerson.h */,
+				21BDDC5D22D3491F00BDD174 /* AdultPerson.m */,
+			);
+			path = Person;
+			sourceTree = "<group>";
+		};
+		21BDDC6022D34D7A00BDD174 /* Run */ = {
+			isa = PBXGroup;
+			children = (
+				21BDDC6222D34DC300BDD174 /* Run.h */,
+				21BDDC6322D34E0900BDD174 /* RunTwoHours.h */,
+				21BDDC6422D34E0900BDD174 /* RunTwoHours.m */,
+				21BDDC6622D34E1B00BDD174 /* RunOneHour.h */,
+				21BDDC6722D34E1B00BDD174 /* RunOneHour.m */,
+			);
+			path = Run;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21BDDC3F22D3464F00BDD174 /* iOS-策略模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21BDDC4722D3464F00BDD174 /* Build configuration list for PBXNativeTarget "iOS-策略模式" */;
+			buildPhases = (
+				21BDDC3C22D3464F00BDD174 /* Sources */,
+				21BDDC3D22D3464F00BDD174 /* Frameworks */,
+				21BDDC3E22D3464F00BDD174 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-策略模式";
+			productName = "iOS-策略模式";
+			productReference = 21BDDC4022D3464F00BDD174 /* iOS-策略模式 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21BDDC3822D3464F00BDD174 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = yongzhen;
+				TargetAttributes = {
+					21BDDC3F22D3464F00BDD174 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 21BDDC3B22D3464F00BDD174 /* Build configuration list for PBXProject "iOS-策略模式" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 21BDDC3722D3464F00BDD174;
+			productRefGroup = 21BDDC4122D3464F00BDD174 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21BDDC3F22D3464F00BDD174 /* iOS-策略模式 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21BDDC3C22D3464F00BDD174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BDDC5422D3482100BDD174 /* EatVegetables.m in Sources */,
+				21BDDC4422D3464F00BDD174 /* main.m in Sources */,
+				21BDDC6522D34E0900BDD174 /* RunTwoHours.m in Sources */,
+				21BDDC5822D348D000BDD174 /* Person.m in Sources */,
+				21BDDC6822D34E1B00BDD174 /* RunOneHour.m in Sources */,
+				21BDDC5122D3470100BDD174 /* EatMeat.m in Sources */,
+				21BDDC5B22D348E700BDD174 /* ChildPerson.m in Sources */,
+				21BDDC5E22D3491F00BDD174 /* AdultPerson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		21BDDC4522D3464F00BDD174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		21BDDC4622D3464F00BDD174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		21BDDC4822D3464F00BDD174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21BDDC4922D3464F00BDD174 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21BDDC3B22D3464F00BDD174 /* Build configuration list for PBXProject "iOS-策略模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21BDDC4522D3464F00BDD174 /* Debug */,
+				21BDDC4622D3464F00BDD174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21BDDC4722D3464F00BDD174 /* Build configuration list for PBXNativeTarget "iOS-策略模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21BDDC4822D3464F00BDD174 /* Debug */,
+				21BDDC4922D3464F00BDD174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21BDDC3822D3464F00BDD174 /* Project object */;
+}
