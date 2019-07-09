@@ -9,7 +9,7 @@
 #import "RunTwoHours.h"
 
 @implementation RunTwoHours
-- (void)runEveryTime{
-    NSLog(@"我能跑两个小时");
+- (void)runEveryDay{
+    NSLog(@"我每天能跑两个小时");
 }
 @end

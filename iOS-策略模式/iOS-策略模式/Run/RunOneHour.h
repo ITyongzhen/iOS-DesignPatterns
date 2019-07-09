@@ -10,6 +10,6 @@
 #import "Run.h"
 
 @interface RunOneHour : NSObject<Run>
-- (void)runEveryTime;
+- (void)runEveryDay;
 @end
 

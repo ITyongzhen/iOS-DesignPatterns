@@ -7,10 +7,6 @@
 //
 
 #import "Person.h"
-
-
-
 @interface ChildPerson : Person
-
 @end
 

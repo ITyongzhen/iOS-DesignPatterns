@@ -10,6 +10,6 @@
 
 
 @protocol Run <NSObject>
--(void)runEveryTime;
+-(void)runEveryDay;
 @end
 

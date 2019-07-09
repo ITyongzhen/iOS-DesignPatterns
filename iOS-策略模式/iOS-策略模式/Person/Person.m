@@ -12,7 +12,7 @@
 - (void)eatSomeThing{
     [self.eat eatSomeThing];
 }
-- (void)runEveryTime{
-    [self.run runEveryTime];
+- (void)runEveryDay{
+    [self.run runEveryDay];
 }
 @end

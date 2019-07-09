@@ -15,6 +15,7 @@
 		21BDDC5E22D3491F00BDD174 /* AdultPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BDDC5D22D3491F00BDD174 /* AdultPerson.m */; };
 		21BDDC6522D34E0900BDD174 /* RunTwoHours.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BDDC6422D34E0900BDD174 /* RunTwoHours.m */; };
 		21BDDC6822D34E1B00BDD174 /* RunOneHour.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BDDC6722D34E1B00BDD174 /* RunOneHour.m */; };
+		21FB077922D41B0300B4449E /* OldPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FB077822D41B0300B4449E /* OldPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +49,8 @@
 		21BDDC6422D34E0900BDD174 /* RunTwoHours.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTwoHours.m; sourceTree = "<group>"; };
 		21BDDC6622D34E1B00BDD174 /* RunOneHour.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunOneHour.h; sourceTree = "<group>"; };
 		21BDDC6722D34E1B00BDD174 /* RunOneHour.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunOneHour.m; sourceTree = "<group>"; };
+		21FB077722D41B0300B4449E /* OldPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OldPerson.h; sourceTree = "<group>"; };
+		21FB077822D41B0300B4449E /* OldPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OldPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 				21BDDC5A22D348E700BDD174 /* ChildPerson.m */,
 				21BDDC5C22D3491F00BDD174 /* AdultPerson.h */,
 				21BDDC5D22D3491F00BDD174 /* AdultPerson.m */,
+				21FB077722D41B0300B4449E /* OldPerson.h */,
+				21FB077822D41B0300B4449E /* OldPerson.m */,
 			);
 			path = Person;
 			sourceTree = "<group>";
@@ -184,6 +189,7 @@
 				21BDDC5422D3482100BDD174 /* EatVegetables.m in Sources */,
 				21BDDC4422D3464F00BDD174 /* main.m in Sources */,
 				21BDDC6522D34E0900BDD174 /* RunTwoHours.m in Sources */,
+				21FB077922D41B0300B4449E /* OldPerson.m in Sources */,
 				21BDDC5822D348D000BDD174 /* Person.m in Sources */,
 				21BDDC6822D34E1B00BDD174 /* RunOneHour.m in Sources */,
 				21BDDC5122D3470100BDD174 /* EatMeat.m in Sources */,

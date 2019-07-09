@@ -14,6 +14,6 @@
 @property (nonatomic,strong) id<Eat> eat;
 @property (nonatomic,strong) id<Run> run;
 - (void)eatSomeThing;
-- (void)runEveryTime;
+- (void)runEveryDay;
 @end
 

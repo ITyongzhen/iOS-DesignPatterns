@@ -10,17 +10,21 @@
 #import "Person.h"
 #import "ChildPerson.h"
 #import "AdultPerson.h"
-
+#import "OldPerson.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-//        策略模式定义了算法族，分别封装起来，让它们之间可以互相替换，此模式让算法的变化独立于使用算法的客户。——《Head First 设计模式》
+
         Person *child = [[ChildPerson alloc] init];
         [child eatSomeThing];
-        [child runEveryTime];
+        [child runEveryDay];
         
         Person *adult = [[AdultPerson alloc] init];
         [adult eatSomeThing];
-        [adult runEveryTime];
+        [adult runEveryDay];
+        
+        Person *old = [[OldPerson alloc] init];
+        [old eatSomeThing];
+        [old runEveryDay];
         // insert code here...
         NSLog(@"Hello, World!");
     }
